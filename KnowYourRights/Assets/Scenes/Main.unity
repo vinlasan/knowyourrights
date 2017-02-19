@@ -254,7 +254,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 17
   indentLevel: 2
-  storyText: The other officer approaches you
+  storyText: The other officer approaches you.
   description: 
   character: {fileID: 1871742129}
   portrait: {fileID: 0}
@@ -306,7 +306,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 15
   indentLevel: 2
-  storyText: The other officer approaches you
+  storyText: The other officer approaches you.
   description: 
   character: {fileID: 1871742129}
   portrait: {fileID: 0}
@@ -331,7 +331,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 14
   indentLevel: 1
-  storyText: The other officer approaches you
+  storyText: The other officer approaches you.
   description: 
   character: {fileID: 1871742129}
   portrait: {fileID: 0}
@@ -491,7 +491,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 8
   indentLevel: 0
-  storyText: 'You decide to keep filming
+  storyText: 'You decide to keep filming.
 
 '
   description: 
@@ -605,8 +605,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 324.4253
-    y: 105.59041
+    x: 325.60178
+    y: 106.76688
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -682,7 +682,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 39
   indentLevel: 0
-  storyText: You see the police detain you were filming
+  storyText: Suddenly, two police officers arrive on the scene. One officer starts
+    to detain the person you were filming.
   description: 
   character: {fileID: 1871742129}
   portrait: {fileID: 0}
@@ -709,7 +710,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 132.1915
-    y: 11.404303
+    y: 12.580773
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -741,7 +742,7 @@ MonoBehaviour:
   scrollPos: {x: 119.59241, y: 215.5156}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 257
+  blockViewHeight: 353
   zoom: 0.85000014
   scrollViewRect:
     serializedVersion: 2
@@ -750,8 +751,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 369820716}
-  selectedCommands: []
+  - {fileID: 369820712}
+  selectedCommands:
+  - {fileID: 369820714}
   variables:
   - {fileID: 369820696}
   - {fileID: 369820722}
@@ -857,7 +859,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 380.49704
+    x: 381.67352
     y: -67.989784
     width: 139
     height: 40
@@ -883,7 +885,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 29
   indentLevel: 0
-  storyText: You decided to speak up and say something
+  storyText: You decided to speak up and say something.
   description: 
   character: {fileID: 1871742129}
   portrait: {fileID: 0}
@@ -1027,7 +1029,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 38
   indentLevel: 0
-  storyText: 'You film someone who might have done something illegal '
+  storyText: You film someone who might have done something illegal.
   description: 
   character: {fileID: 1871742129}
   portrait: {fileID: 0}
@@ -1106,7 +1108,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 36
   indentLevel: 0
-  storyText: It's your first protest
+  storyText: It's your first protest.
   description: 
   character: {fileID: 1871742129}
   portrait: {fileID: 0}
@@ -1522,7 +1524,7 @@ MonoBehaviour:
   callMode: 0
 --- !u!114 &542782425
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 542782422}
@@ -1609,7 +1611,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 512
-    y: 252
+    y: 256.2857
     width: 123
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1708,7 +1710,7 @@ MonoBehaviour:
     phone. Do you resist?"
   description: 
   character: {fileID: 0}
-  portrait: {fileID: 21300000, guid: c27113fd8a09c7c45a856e5d3c843c11, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1758,11 +1760,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 141.40599, y: 70.031265}
+  scrollPos: {x: 155.79828, y: 221.67297}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 257
-  zoom: 0.7000003
+  zoom: 0.6700003
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -1770,9 +1772,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 542782429}
-  selectedCommands:
-  - {fileID: 542782424}
+  - {fileID: 542782428}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -1799,7 +1800,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &542782436
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 542782422}
@@ -2341,7 +2342,7 @@ MonoBehaviour:
   storyText: '"I''m warning you now, if you get in anyone''s face, I will arrest you."'
   description: 
   character: {fileID: 0}
-  portrait: {fileID: 21300000, guid: c27113fd8a09c7c45a856e5d3c843c11, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2513,8 +2514,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: I need you to stop filming now.
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 21300000, guid: c27113fd8a09c7c45a856e5d3c843c11, type: 3}
+  character: {fileID: 1443692555}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2626,11 +2627,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 228.17535, y: -25.887947}
+  scrollPos: {x: 79.30432, y: 167.19638}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.6100004
+  zoom: 0.7600002
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -2639,8 +2640,7 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 1115911929}
-  selectedCommands:
-  - {fileID: 1115911911}
+  selectedCommands: []
   variables:
   - {fileID: 1115911920}
   description: 
@@ -2694,6 +2694,8 @@ GameObject:
   - component: {fileID: 1397976934}
   - component: {fileID: 1397976932}
   - component: {fileID: 1397976933}
+  - component: {fileID: 1397976935}
+  - component: {fileID: 1397976936}
   m_Layer: 0
   m_Name: Film_B1
   m_TagString: Untagged
@@ -2715,8 +2717,7 @@ MonoBehaviour:
   itemId: 9
   indentLevel: 0
   storyText: "Note: You are not required by law to comply with the police officer\u2019s
-    request to show the video. (Citation) You complete the protest without further
-    incident."
+    request to show the video. (Citation)"
   description: 
   character: {fileID: 1871742129}
   portrait: {fileID: 0}
@@ -2742,7 +2743,7 @@ MonoBehaviour:
   itemId: 8
   indentLevel: 0
   storyText: 'Note: A police officer may not force you to show the video but they
-    may return with a court order which would allow them to see it '
+    may return with a court order which would allow them to see it.'
   description: 
   character: {fileID: 1871742129}
   portrait: {fileID: 0}
@@ -2853,6 +2854,7 @@ MonoBehaviour:
   - {fileID: 1397976932}
   - {fileID: 1397976923}
   - {fileID: 1397976920}
+  - {fileID: 1397976936}
 --- !u!114 &1397976925
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2880,6 +2882,7 @@ MonoBehaviour:
   - {fileID: 1397976933}
   - {fileID: 1397976922}
   - {fileID: 1397976919}
+  - {fileID: 1397976935}
 --- !u!114 &1397976926
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2915,7 +2918,7 @@ MonoBehaviour:
   itemId: 1
   indentLevel: 0
   storyText: "Excuse me, I need to see your video.\u201D Do you show them your video?\n\nNote{wp=0.25}:{/wp}
-    it is {b}legal{/b} for a police officer to ask to see a video you took."
+    It is {b}legal{/b} for a police officer to ask to see a video you took."
   description: 
   character: {fileID: 1443692555}
   portrait: {fileID: 0}
@@ -2970,11 +2973,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 15.802778, y: 98.11627}
+  scrollPos: {x: 178.61536, y: 204.09438}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 257
-  zoom: 0.8200002
+  zoom: 0.7900002
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -2982,7 +2985,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1397976928}
+  - {fileID: 1397976924}
   selectedCommands: []
   variables: []
   description: 
@@ -3089,6 +3092,46 @@ MonoBehaviour:
     booleanRef: {fileID: 0}
     booleanVal: 0
   targetGameObjectOLD: {fileID: 0}
+--- !u!114 &1397976935
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1397976918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 14
+  indentLevel: 0
+  targetFlowchart: {fileID: 369820707}
+  targetBlock: {fileID: 369820712}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
+--- !u!114 &1397976936
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1397976918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 15
+  indentLevel: 0
+  targetFlowchart: {fileID: 369820707}
+  targetBlock: {fileID: 369820712}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
 --- !u!1 &1443692554
 GameObject:
   m_ObjectHideFlags: 0
@@ -3486,6 +3529,9 @@ GameObject:
   - component: {fileID: 1962356945}
   - component: {fileID: 1962356946}
   - component: {fileID: 1962356947}
+  - component: {fileID: 1962356948}
+  - component: {fileID: 1962356949}
+  - component: {fileID: 1962356950}
   m_Layer: 0
   m_Name: Do nothing
   m_TagString: Untagged
@@ -3674,7 +3720,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 107.37275, y: -11.738702}
+  scrollPos: {x: 164.51556, y: 99.25029}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 257
@@ -3686,7 +3732,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1962356915}
+  - {fileID: 1962356937}
   selectedCommands: []
   variables:
   - {fileID: 1962356912}
@@ -3888,6 +3934,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1962356921}
+  - {fileID: 1962356950}
 --- !u!114 &1962356927
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -4027,8 +4074,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 268.0792
-    y: 278.68582
+    x: 266.9803
+    y: 279.78473
     width: 120
     height: 40
   tint: {r: 0.8431373, g: 0.31764707, b: 0.31764707, a: 1}
@@ -4039,6 +4086,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1962356939}
+  - {fileID: 1962356948}
 --- !u!114 &1962356934
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -4112,7 +4160,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 516.4734
+    x: 521.96783
     y: 267.19907
     width: 120
     height: 40
@@ -4124,6 +4172,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1962356938}
+  - {fileID: 1962356949}
 --- !u!114 &1962356938
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -4265,7 +4314,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 31
   indentLevel: 1
-  storyText: Decide to do nothing, but you see the police moving towards you.
+  storyText: You decide to do nothing, but you see the police moving towards you.
   description: 
   character: {fileID: 1871742129}
   portrait: {fileID: 0}
@@ -4342,6 +4391,66 @@ MonoBehaviour:
     stringVal: 
   startIndex: 0
   callMode: 0
+--- !u!114 &1962356948
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1962356910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 35
+  indentLevel: 0
+  targetFlowchart: {fileID: 369820707}
+  targetBlock: {fileID: 369820712}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
+--- !u!114 &1962356949
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1962356910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 36
+  indentLevel: 0
+  targetFlowchart: {fileID: 369820707}
+  targetBlock: {fileID: 369820712}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
+--- !u!114 &1962356950
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1962356910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 37
+  indentLevel: 0
+  targetFlowchart: {fileID: 369820707}
+  targetBlock: {fileID: 369820712}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
 --- !u!1 &1962625155
 GameObject:
   m_ObjectHideFlags: 0
@@ -4407,6 +4516,8 @@ GameObject:
   - component: {fileID: 1962625210}
   - component: {fileID: 1962625212}
   - component: {fileID: 1962625213}
+  - component: {fileID: 1962625214}
+  - component: {fileID: 1962625215}
   m_Layer: 0
   m_Name: RandomPolice
   m_TagString: Untagged
@@ -4472,21 +4583,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -32, y: -24}
+  scrollPos: {x: -90.83949, y: 47.65959}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 1
+  zoom: 0.94000006
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 1962625184}
-  selectedCommands:
-  - {fileID: 1962625187}
+  selectedBlocks: []
+  selectedCommands: []
   variables:
   - {fileID: 1962625162}
   description: Random encounter that leads to arrest
@@ -4512,7 +4621,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 95
+    x: 98.06383
     y: 147
     width: 120
     height: 40
@@ -4528,6 +4637,7 @@ MonoBehaviour:
   - {fileID: 1962625202}
   - {fileID: 1962625164}
   - {fileID: 1962625163}
+  - {fileID: 1962625214}
 --- !u!114 &1962625160
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -4541,7 +4651,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1
   indentLevel: 0
-  storyText: Suddenly the police approache you.
+  storyText: Suddenly, the police approach you.
   description: 
   character: {fileID: 1871742129}
   portrait: {fileID: 0}
@@ -4666,7 +4776,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 10
   indentLevel: 0
-  storyText: "You\u2019re confused because you\u2019ve been peacefully protesting. "
+  storyText: "You\u2019re confused because you have been peacefully protesting. "
   description: 
   character: {fileID: 919139166}
   portrait: {fileID: 0}
@@ -4842,7 +4952,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 14
   indentLevel: 0
-  storyText: "{i}Don\u2019t assume you\u2019re in trouble with police unless the officer
+  storyText: "{i}Don\u2019t assume you are in trouble with police unless the officer
     says or acts in a manner that indicates that you may be in legal trouble!{/i}"
   description: 
   character: {fileID: 1871742129}
@@ -4868,8 +4978,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 16
   indentLevel: 0
-  storyText: "If you\u2019re afraid you might be in trouble with the police ask if
-    you\u2019re free to go."
+  storyText: If the officer tells you that you are free to go, then you are not in
+    trouble!
   description: 
   character: {fileID: 1871742129}
   portrait: {fileID: 0}
@@ -4894,9 +5004,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 15
   indentLevel: 0
-  storyText: "If you\u2019re afraid you might be in trouble with the police ask if
-    you\u2019re free to go.\nIf the officer tells you you\u2019re free to go you\u2019re
-    not in trouble!"
+  storyText: If you are afraid that you might be in trouble with the police, just
+    ask if you are free to go.
   description: 
   character: {fileID: 1871742129}
   portrait: {fileID: 0}
@@ -4921,7 +5030,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 17
   indentLevel: 0
-  storyText: You ask the officer if your free to go
+  storyText: You ask the officer if you are free to go.
   description: 
   character: {fileID: 1871742129}
   portrait: {fileID: 0}
@@ -4974,7 +5083,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 24
   indentLevel: 0
-  storyText: "The officer says yes, you\u2019re free to go."
+  storyText: The officer says yes, you are free to go.
   description: 
   character: {fileID: 1871742129}
   portrait: {fileID: 0}
@@ -5099,7 +5208,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 582
+    x: 583.06384
     y: 249
     width: 120
     height: 40
@@ -5131,7 +5240,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 357
-    y: 255
+    y: 256
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -5178,9 +5287,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 31
   indentLevel: 0
-  storyText: "You might be mad at this accusation, but it\u2019s important not to
-    give an officer a reason to suspect you\u2019ll endanger the safety of others
-    so you keep your cool."
+  storyText: You might be mad at this accusation, but it is important not to give
+    an officer a reason to suspect you will endanger the safety of others so you keep
+    your cool.
   description: 
   character: {fileID: 1871742129}
   portrait: {fileID: 0}
@@ -5230,7 +5339,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 29
   indentLevel: 0
-  storyText: The police officer should tell you the reason for the stop, if not ask!
+  storyText: The police officer should tell you the reason you are being detained,
+    if not, ask!
   description: 
   character: {fileID: 1871742129}
   portrait: {fileID: 0}
@@ -5255,8 +5365,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 28
   indentLevel: 0
-  storyText: "The officer says you are not free to go. If an officer tells you you\u2019re
-    not free to go that means you are being detained."
+  storyText: The officer says you are not free to go. If an officer tells you that
+    you are not free to go, then that means you are being detained.
   description: 
   character: {fileID: 1871742129}
   portrait: {fileID: 0}
@@ -5341,8 +5451,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 713
-    y: 388
+    x: 720.44696
+    y: 392.25607
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -5354,6 +5464,7 @@ MonoBehaviour:
   commandList:
   - {fileID: 1962625197}
   - {fileID: 1962625196}
+  - {fileID: 1962625215}
 --- !u!114 &1962625195
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -5367,8 +5478,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 484
-    y: 388
+    x: 382.93564
+    y: 383.74457
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -5584,8 +5695,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 49
   indentLevel: 1
-  storyText: "If you\u2019ve been arrested, even if you don\u2019t think you\u2019ve
-    broken the law, this is the point to let your lawyer fight for you!"
+  storyText: If you have been arrested, even if you do not think you have broken the
+    law, this is the point to let your lawyer fight for you!
   description: 
   character: {fileID: 1871742129}
   portrait: {fileID: 0}
@@ -5762,7 +5873,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 51
   indentLevel: 1
-  storyText: 'You decide to return to the protest
+  storyText: 'You decide to return to the protest.
 
 '
   description: 
@@ -5822,6 +5933,46 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 54
   indentLevel: 1
+--- !u!114 &1962625214
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1962625155}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 55
+  indentLevel: 0
+  targetFlowchart: {fileID: 369820707}
+  targetBlock: {fileID: 369820706}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
+--- !u!114 &1962625215
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1962625155}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 56
+  indentLevel: 0
+  targetFlowchart: {fileID: 369820707}
+  targetBlock: {fileID: 369820706}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
 --- !u!1 &2066301352
 GameObject:
   m_ObjectHideFlags: 0
@@ -5861,6 +6012,8 @@ GameObject:
   - component: {fileID: 2066301371}
   - component: {fileID: 2066301369}
   - component: {fileID: 2066301372}
+  - component: {fileID: 2066301374}
+  - component: {fileID: 2066301373}
   m_Layer: 0
   m_Name: Say Something
   m_TagString: Untagged
@@ -5893,7 +6046,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 2066301360}
+  - {fileID: 2066301357}
   selectedCommands: []
   variables: []
   description: 
@@ -6007,6 +6160,7 @@ MonoBehaviour:
   commandList:
   - {fileID: 2066301382}
   - {fileID: 2066301356}
+  - {fileID: 2066301374}
 --- !u!114 &2066301358
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -6256,8 +6410,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -71.69529
-    y: 358.29312
+    x: -69.16364
+    y: 357.0273
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -6268,6 +6422,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 2066301370}
+  - {fileID: 2066301373}
 --- !u!114 &2066301369
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -6357,6 +6512,46 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemId: 43
+  indentLevel: 0
+  targetFlowchart: {fileID: 369820707}
+  targetBlock: {fileID: 369820706}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
+--- !u!114 &2066301373
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2066301352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 45
+  indentLevel: 0
+  targetFlowchart: {fileID: 369820707}
+  targetBlock: {fileID: 369820706}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
+--- !u!114 &2066301374
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2066301352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 44
   indentLevel: 0
   targetFlowchart: {fileID: 369820707}
   targetBlock: {fileID: 369820706}
@@ -6735,11 +6930,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22415108, guid: 9bb64c8df70904eecac3f71f81bf339b, type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -25
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 22415108, guid: 9bb64c8df70904eecac3f71f81bf339b, type: 2}
       propertyPath: m_SizeDelta.y
-      value: 50
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 22472126, guid: 9bb64c8df70904eecac3f71f81bf339b, type: 2}
       propertyPath: m_AnchorMin.y
@@ -6755,11 +6950,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22472126, guid: 9bb64c8df70904eecac3f71f81bf339b, type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -105
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 22472126, guid: 9bb64c8df70904eecac3f71f81bf339b, type: 2}
       propertyPath: m_SizeDelta.y
-      value: 100
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 22472120, guid: 9bb64c8df70904eecac3f71f81bf339b, type: 2}
       propertyPath: m_AnchorMin.y
@@ -6775,11 +6970,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22472120, guid: 9bb64c8df70904eecac3f71f81bf339b, type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -210
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 22472120, guid: 9bb64c8df70904eecac3f71f81bf339b, type: 2}
       propertyPath: m_SizeDelta.y
-      value: 100
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 22472118, guid: 9bb64c8df70904eecac3f71f81bf339b, type: 2}
       propertyPath: m_AnchorMin.y
@@ -6795,11 +6990,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22472118, guid: 9bb64c8df70904eecac3f71f81bf339b, type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -315
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 22472118, guid: 9bb64c8df70904eecac3f71f81bf339b, type: 2}
       propertyPath: m_SizeDelta.y
-      value: 100
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 22472112, guid: 9bb64c8df70904eecac3f71f81bf339b, type: 2}
       propertyPath: m_AnchorMin.y
@@ -6815,11 +7010,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22472112, guid: 9bb64c8df70904eecac3f71f81bf339b, type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -420
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 22472112, guid: 9bb64c8df70904eecac3f71f81bf339b, type: 2}
       propertyPath: m_SizeDelta.y
-      value: 100
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 22472110, guid: 9bb64c8df70904eecac3f71f81bf339b, type: 2}
       propertyPath: m_AnchorMin.y
@@ -6835,11 +7030,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22472110, guid: 9bb64c8df70904eecac3f71f81bf339b, type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -525
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 22472110, guid: 9bb64c8df70904eecac3f71f81bf339b, type: 2}
       propertyPath: m_SizeDelta.y
-      value: 100
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 22415094, guid: 9bb64c8df70904eecac3f71f81bf339b, type: 2}
       propertyPath: m_AnchorMin.y
@@ -6855,15 +7050,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22415094, guid: 9bb64c8df70904eecac3f71f81bf339b, type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -630
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 22415094, guid: 9bb64c8df70904eecac3f71f81bf339b, type: 2}
       propertyPath: m_SizeDelta.y
-      value: 100
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 22415112, guid: 9bb64c8df70904eecac3f71f81bf339b, type: 2}
       propertyPath: m_SizeDelta.y
-      value: 680
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 22415112, guid: 9bb64c8df70904eecac3f71f81bf339b, type: 2}
       propertyPath: m_AnchoredPosition.y
