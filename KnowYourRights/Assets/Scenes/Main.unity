@@ -232,6 +232,8 @@ GameObject:
   - component: {fileID: 369820730}
   - component: {fileID: 369820731}
   - component: {fileID: 369820732}
+  - component: {fileID: 369820734}
+  - component: {fileID: 369820733}
   m_Layer: 0
   m_Name: Start
   m_TagString: Untagged
@@ -736,7 +738,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 150.18062, y: 100.22163}
+  scrollPos: {x: 119.59241, y: 215.5156}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 257
@@ -748,7 +750,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 369820712}
+  - {fileID: 369820716}
   selectedCommands: []
   variables:
   - {fileID: 369820696}
@@ -855,8 +857,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 269.90964
-    y: 227.30414
+    x: 380.49704
+    y: -67.989784
     width: 139
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -867,6 +869,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 369820714}
+  - {fileID: 369820734}
 --- !u!114 &369820713
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -905,7 +908,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 23
   indentLevel: 0
-  storyText: You leave the protest peacefully
+  storyText: You leave the protest peacefully with no further incidents.
   description: 
   character: {fileID: 1871742129}
   portrait: {fileID: 0}
@@ -930,7 +933,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 25
   indentLevel: 0
-  storyText: 'Stuff happened I guess
+  storyText: 'Would you like to approach that differently?
 
 '
   description: 
@@ -957,8 +960,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -41.75821
-    y: 231.22029
+    x: 386.47736
+    y: -2.8972874
     width: 124
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -969,6 +972,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 369820715}
+  - {fileID: 369820733}
 --- !u!114 &369820717
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1299,6 +1303,48 @@ MonoBehaviour:
   maxValue:
     integerRef: {fileID: 0}
     integerVal: 10
+--- !u!114 &369820733
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 369820686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 51
+  indentLevel: 0
+  text: Retry?
+  description: 
+  targetBlock: {fileID: 369820706}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+--- !u!114 &369820734
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 369820686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 50
+  indentLevel: 0
+  text: Retry?
+  description: 
+  targetBlock: {fileID: 369820706}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
 --- !u!1 &432797337
 GameObject:
   m_ObjectHideFlags: 0
@@ -1803,7 +1849,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 1962356918}
+  selectedFlowchart: {fileID: 1962625158}
 --- !u!4 &607167375
 Transform:
   m_ObjectHideFlags: 1
@@ -3438,6 +3484,8 @@ GameObject:
   - component: {fileID: 1962356943}
   - component: {fileID: 1962356944}
   - component: {fileID: 1962356945}
+  - component: {fileID: 1962356946}
+  - component: {fileID: 1962356947}
   m_Layer: 0
   m_Name: Do nothing
   m_TagString: Untagged
@@ -3626,11 +3674,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 296.1251, y: 35.784706}
+  scrollPos: {x: 107.37275, y: -11.738702}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 257
-  zoom: 0.6700003
+  zoom: 0.9100001
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -3638,7 +3686,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1962356923}
+  - {fileID: 1962356915}
   selectedCommands: []
   variables:
   - {fileID: 1962356912}
@@ -3757,8 +3805,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 27.950472
-    y: 265.3857
+    x: 29.049374
+    y: 273.07803
     width: 157
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -3769,6 +3817,8 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1962356922}
+  - {fileID: 1962356946}
+  - {fileID: 1962356947}
 --- !u!114 &1962356924
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -4247,6 +4297,51 @@ MonoBehaviour:
     stringVal: 
   startIndex: 0
   callMode: 0
+--- !u!114 &1962356946
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1962356910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 33
+  indentLevel: 0
+  storyText: You are arrested.
+  description: 
+  character: {fileID: 1871742129}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &1962356947
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1962356910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 34
+  indentLevel: 0
+  targetFlowchart: {fileID: 369820707}
+  targetBlock: {fileID: 369820716}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
 --- !u!1 &1962625155
 GameObject:
   m_ObjectHideFlags: 0
@@ -4377,7 +4472,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -186, y: -24}
+  scrollPos: {x: -32, y: -24}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
@@ -4389,8 +4484,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1962625157}
-  selectedCommands: []
+  - {fileID: 1962625184}
+  selectedCommands:
+  - {fileID: 1962625187}
   variables:
   - {fileID: 1962625162}
   description: Random encounter that leads to arrest
@@ -5742,33 +5838,29 @@ GameObject:
   - component: {fileID: 2066301356}
   - component: {fileID: 2066301360}
   - component: {fileID: 2066301361}
-  - component: {fileID: 2066301363}
-  - component: {fileID: 2066301362}
   - component: {fileID: 2066301364}
-  - component: {fileID: 2066301365}
-  - component: {fileID: 2066301369}
   - component: {fileID: 2066301368}
-  - component: {fileID: 2066301367}
   - component: {fileID: 2066301366}
   - component: {fileID: 2066301370}
-  - component: {fileID: 2066301371}
-  - component: {fileID: 2066301372}
-  - component: {fileID: 2066301374}
-  - component: {fileID: 2066301375}
-  - component: {fileID: 2066301373}
   - component: {fileID: 2066301376}
-  - component: {fileID: 2066301377}
   - component: {fileID: 2066301383}
   - component: {fileID: 2066301384}
   - component: {fileID: 2066301381}
   - component: {fileID: 2066301382}
-  - component: {fileID: 2066301378}
-  - component: {fileID: 2066301380}
-  - component: {fileID: 2066301379}
   - component: {fileID: 2066301387}
   - component: {fileID: 2066301385}
   - component: {fileID: 2066301386}
   - component: {fileID: 2066301388}
+  - component: {fileID: 2066301389}
+  - component: {fileID: 2066301391}
+  - component: {fileID: 2066301390}
+  - component: {fileID: 2066301362}
+  - component: {fileID: 2066301367}
+  - component: {fileID: 2066301363}
+  - component: {fileID: 2066301365}
+  - component: {fileID: 2066301371}
+  - component: {fileID: 2066301369}
+  - component: {fileID: 2066301372}
   m_Layer: 0
   m_Name: Say Something
   m_TagString: Untagged
@@ -5789,11 +5881,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 427.30533, y: 192.0217}
+  scrollPos: {x: 498.05255, y: 40.47791}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 257
-  zoom: 0.8200002
+  zoom: 0.7900002
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -5801,9 +5893,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 2066301354}
-  selectedCommands:
-  - {fileID: 2066301388}
+  - {fileID: 2066301360}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -5829,8 +5920,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -184.76898
-    y: 37.384636
+    x: -234.58377
+    y: 71.731674
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -5846,12 +5937,12 @@ MonoBehaviour:
   - {fileID: 2066301385}
   - {fileID: 2066301384}
   - {fileID: 2066301359}
+  - {fileID: 2066301391}
+  - {fileID: 2066301389}
+  - {fileID: 2066301390}
   - {fileID: 2066301383}
   - {fileID: 2066301358}
   - {fileID: 2066301361}
-  - {fileID: 2066301362}
-  - {fileID: 2066301372}
-  - {fileID: 2066301375}
 --- !u!4 &2066301355
 Transform:
   m_ObjectHideFlags: 0
@@ -5903,8 +5994,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -420.9397
-    y: 106.189514
+    x: 72.96289
+    y: 66.34698
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -5947,7 +6038,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1
   indentLevel: 1
-  storyText: How do you verbally approach the officer?
+  storyText: "You\u2019re not sure what you can do or say. \n\nYou decide to say something,
+    even though you think the police or other people won\u2019t agree. "
   description: 
   character: {fileID: 1871742129}
   portrait: {fileID: 0}
@@ -5972,8 +6064,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -213.45189
-    y: 134.68066
+    x: -223.16158
+    y: 243.17093
     width: 133
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -5983,8 +6075,11 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 2066301381}
+  - {fileID: 2066301367}
   - {fileID: 2066301376}
+  - {fileID: 2066301381}
+  - {fileID: 2066301362}
+  - {fileID: 2066301363}
 --- !u!114 &2066301361
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -6017,11 +6112,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 8
-  indentLevel: 1
-  text: Cursed them out
+  itemId: 37
+  indentLevel: 0
+  text: With a sign
   description: 
-  targetBlock: {fileID: 2066301363}
+  targetBlock: {fileID: 2066301368}
   hideIfVisited: 0
   interactable:
     booleanRef: {fileID: 0}
@@ -6035,27 +6130,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 2066301352}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: 125.619225
-    y: 93.87391
-    width: 134
-    height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
-  itemId: 7
-  blockName: Swear at them
+  itemId: 39
+  indentLevel: 0
+  text: Yell
   description: 
-  eventHandler: {fileID: 0}
-  commandList:
-  - {fileID: 2066301380}
-  - {fileID: 2066301365}
-  - {fileID: 2066301379}
-  - {fileID: 2066301369}
-  - {fileID: 2066301367}
+  targetBlock: {fileID: 2066301364}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
 --- !u!114 &2066301364
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -6069,18 +6156,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 281.32092
-    y: 174.10841
+    x: -383.31323
+    y: 355.81583
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 15
-  blockName: Hate speech
+  blockName: Yell
   description: 
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 2066301366}
+  - {fileID: 2066301365}
+  - {fileID: 2066301371}
+  - {fileID: 2066301369}
+  - {fileID: 2066301372}
 --- !u!114 &2066301365
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -6092,10 +6183,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 9
+  itemId: 40
   indentLevel: 0
-  storyText: You decide to swear at them{wp=0.5}...{/wp} do you want to throw in some
-    hate speech for good measure?
+  storyText: The officer hears you and strides over.
   description: 
   character: {fileID: 1871742129}
   portrait: {fileID: 0}
@@ -6120,9 +6210,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 13
   indentLevel: 0
-  storyText: 'You decided to take it up a notch
-
-'
+  storyText: You make eye contact with a nearby police officer and yell that he should
+    be wearing a bodycam.
   description: 
   character: {fileID: 1871742129}
   portrait: {fileID: 0}
@@ -6142,19 +6231,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 2066301352}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 12
+  itemId: 38
   indentLevel: 0
-  text: Throw some in there
-  description: 
-  targetBlock: {fileID: 2066301364}
-  hideIfVisited: 0
-  interactable:
+  _targetGameObject:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 1246470064}
+  activeState:
     booleanRef: {fileID: 0}
     booleanVal: 1
-  setMenuDialog: {fileID: 0}
+  targetGameObjectOLD: {fileID: 0}
 --- !u!114 &2066301368
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -6168,14 +6256,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 21.018517
-    y: 174.0541
-    width: 138
+    x: -71.69529
+    y: 358.29312
+    width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 11
-  blockName: No hate speech
+  blockName: Sign
   description: 
   eventHandler: {fileID: 0}
   commandList:
@@ -6188,16 +6276,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 2066301352}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ab54728d981544842843ba6609b9a80a, type: 3}
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 10
+  itemId: 42
   indentLevel: 0
-  _duration:
-    floatRef: {fileID: 0}
-    floatVal: 3
-  targetBlock: {fileID: 2066301368}
-  durationOLD: 0
+  storyText: 'Note: {i}Criticism of the police is {b}protected{/b} under the Bill
+    of Rights. {/i}'
+  description: 
+  character: {fileID: 1871742129}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  setSayDialog: {fileID: 0}
 --- !u!114 &2066301370
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -6211,9 +6307,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 14
   indentLevel: 0
-  storyText: You decided to leave it at the swearing
+  storyText: "You wave a sign that says \u201CEND POLICE BRUTALITY.\u201D "
   description: 
-  character: {fileID: 1871742129}
+  character: {fileID: 919139166}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -6231,59 +6327,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 2066301352}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: 94.09534
-    y: -35.561108
-    width: 133
-    height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
-  itemId: 16
-  blockName: HarshlyCritical
-  description: 
-  eventHandler: {fileID: 0}
-  commandList:
-  - {fileID: 2066301377}
---- !u!114 &2066301372
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2066301352}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 17
-  indentLevel: 1
-  text: Harshly criticise them
-  description: 
-  targetBlock: {fileID: 2066301371}
-  hideIfVisited: 0
-  interactable:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  setMenuDialog: {fileID: 0}
---- !u!114 &2066301373
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2066301352}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 20
+  itemId: 41
   indentLevel: 0
-  storyText: You suggest to a protestor to throw a brick into a window to cause a
-    distraction
+  storyText: "\u201CI hear where you\u2019re coming from and want you to know that
+    we at the SPD are working to earn the trust of the community. Have a good day!\u201D "
   description: 
   character: {fileID: 1871742129}
   portrait: {fileID: 0}
@@ -6295,7 +6345,7 @@ MonoBehaviour:
   waitForClick: 1
   stopVoiceover: 1
   setSayDialog: {fileID: 0}
---- !u!114 &2066301374
+--- !u!114 &2066301372
 MonoBehaviour:
   m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
@@ -6303,45 +6353,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 2066301352}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: -375.83835
-    y: -74.022606
-    width: 130
-    height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
-  itemId: 18
-  blockName: InciteViolence
-  description: 
-  eventHandler: {fileID: 0}
-  commandList:
-  - {fileID: 2066301378}
-  - {fileID: 2066301373}
---- !u!114 &2066301375
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2066301352}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 19
-  indentLevel: 1
-  text: Incite violence
-  description: 
-  targetBlock: {fileID: 2066301374}
-  hideIfVisited: 0
-  interactable:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  setMenuDialog: {fileID: 0}
+  itemId: 43
+  indentLevel: 0
+  targetFlowchart: {fileID: 369820707}
+  targetBlock: {fileID: 369820706}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
 --- !u!114 &2066301376
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -6355,9 +6378,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 21
   indentLevel: 0
-  storyText: 'Excuse me officer you''re mean
-
-'
+  storyText: "You decide to express views that are critical of the police. How do
+    you do so?\r\n"
   description: 
   character: {fileID: 919139166}
   portrait: {fileID: 0}
@@ -6369,91 +6391,6 @@ MonoBehaviour:
   waitForClick: 1
   stopVoiceover: 1
   setSayDialog: {fileID: 0}
---- !u!114 &2066301377
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2066301352}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 22
-  indentLevel: 0
-  storyText: Man you suck
-  description: 
-  character: {fileID: 919139166}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  setSayDialog: {fileID: 0}
---- !u!114 &2066301378
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2066301352}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 27
-  indentLevel: 0
-  _targetGameObject:
-    gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 1246470064}
-  activeState:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  targetGameObjectOLD: {fileID: 0}
---- !u!114 &2066301379
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2066301352}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 29
-  indentLevel: 0
-  _targetGameObject:
-    gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 1246470064}
-  activeState:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
-  targetGameObjectOLD: {fileID: 0}
---- !u!114 &2066301380
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2066301352}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 28
-  indentLevel: 0
-  _targetGameObject:
-    gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 1246470064}
-  activeState:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  targetGameObjectOLD: {fileID: 0}
 --- !u!114 &2066301381
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -6472,7 +6409,7 @@ MonoBehaviour:
     gameObjectVal: {fileID: 1246470064}
   activeState:
     booleanRef: {fileID: 0}
-    booleanVal: 1
+    booleanVal: 0
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &2066301382
 MonoBehaviour:
@@ -6619,6 +6556,84 @@ MonoBehaviour:
     stringVal: 
   startIndex: 0
   callMode: 0
+--- !u!114 &2066301389
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2066301352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 34
+  indentLevel: 1
+  storyText: "Note: {i}It is your constitutional right to express your views freely
+    at a permitted protest, regardless of whether or not it\u2019s a popular opinion.
+    {/i}"
+  description: 
+  character: {fileID: 1871742129}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &2066301390
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2066301352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 36
+  indentLevel: 1
+  storyText: However, hate speech (definition) is not protected speech
+  description: 
+  character: {fileID: 1871742129}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 1
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &2066301391
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2066301352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 35
+  indentLevel: 1
+  storyText: "You\u2019re not sure what you can do or say. \n\nYou decide to say something,
+    even though you think the police or other people won\u2019t agree. "
+  description: 
+  character: {fileID: 1871742129}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  setSayDialog: {fileID: 0}
 --- !u!1001 &2118256021
 Prefab:
   m_ObjectHideFlags: 0
