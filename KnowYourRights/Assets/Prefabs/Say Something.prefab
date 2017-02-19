@@ -47,6 +47,7 @@ GameObject:
   - component: {fileID: 114373762230011552}
   - component: {fileID: 114505134925917878}
   - component: {fileID: 114750043410074632}
+  - component: {fileID: 114581845325707404}
   m_Layer: 0
   m_Name: Say Something
   m_TagString: Untagged
@@ -210,8 +211,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1
   indentLevel: 1
-  storyText: "You\u2019re not sure what you can do or say. \n\nYou decide to say something,
-    even though you think the police or other people won\u2019t agree. "
+  storyText: "You\u2019re not sure what you can do or say."
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -274,6 +274,7 @@ MonoBehaviour:
   - {fileID: 114029989845154932}
   - {fileID: 114342341276929396}
   - {fileID: 114265870098245816}
+  - {fileID: 114581845325707404}
   - {fileID: 114766940991909996}
   - {fileID: 114354703791400464}
   - {fileID: 114775678319978248}
@@ -436,8 +437,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -378.24994
-    y: 354.55002
+    x: -369.38922
+    y: 343.15768
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -472,6 +473,32 @@ MonoBehaviour:
     stringVal: 
   startIndex: 0
   callMode: 0
+--- !u!114 &114581845325707404
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1929476897922678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 46
+  indentLevel: 1
+  storyText: "You decide to say something, even though you think the police or other
+    people won\u2019t agree."
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  setSayDialog: {fileID: 0}
 --- !u!114 &114626119394479154
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -649,10 +676,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 498.05255, y: 40.47791}
+  scrollPos: {x: 620.83734, y: 124.0222}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 257
+  blockViewHeight: 419
   zoom: 0.7900002
   scrollViewRect:
     serializedVersion: 2
