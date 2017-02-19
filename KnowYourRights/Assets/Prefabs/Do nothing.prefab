@@ -60,6 +60,7 @@ GameObject:
   - component: {fileID: 114977086278010186}
   - component: {fileID: 114334203945732412}
   - component: {fileID: 114561104679898756}
+  - component: {fileID: 114216994244156416}
   m_Layer: 0
   m_Name: Do nothing
   m_TagString: Untagged
@@ -204,7 +205,7 @@ MonoBehaviour:
   itemId: 36
   indentLevel: 0
   targetFlowchart: {fileID: 0}
-  targetBlock: {fileID: 0}
+  targetBlock: {fileID: 114216994244156416}
   startLabel:
     stringRef: {fileID: 0}
     stringVal: 
@@ -310,6 +311,30 @@ MonoBehaviour:
   waitForClick: 1
   stopVoiceover: 1
   setSayDialog: {fileID: 0}
+--- !u!114 &114216994244156416
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1618754211696656}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 453.22238
+    y: 372.03598
+    width: 125
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 40
+  blockName: Attempt Stop
+  description: 
+  eventHandler: {fileID: 0}
+  commandList: []
 --- !u!114 &114229748256545714
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -342,18 +367,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 271.10907, y: 83.86569}
+  scrollPos: {x: 137.82967, y: -11.991571}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 257
-  zoom: 0.9100001
+  zoom: 0.8200002
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
+  selectedBlocks:
+  - {fileID: 114019926798927422}
   selectedCommands: []
   variables:
   - {fileID: 114958676416067616}
@@ -687,8 +713,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 557.1324
-    y: 268.29797
+    x: 556.0335
+    y: 269.39688
     width: 120
     height: 40
   tint: {r: 0.8431373, g: 0.31764707, b: 0.31764707, a: 1}
@@ -894,7 +920,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 408.29047
+    x: 410.48828
     y: 164.37971
     width: 120
     height: 40
