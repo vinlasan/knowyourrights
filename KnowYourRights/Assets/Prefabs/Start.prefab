@@ -42,11 +42,9 @@ GameObject:
   - component: {fileID: 114664931778388758}
   - component: {fileID: 114902256781099384}
   - component: {fileID: 114223122315546866}
-  - component: {fileID: 114312907165444362}
   - component: {fileID: 114514819221917076}
   - component: {fileID: 114343709158259184}
   - component: {fileID: 114876851930519930}
-  - component: {fileID: 114179195761795648}
   - component: {fileID: 114510538016380234}
   - component: {fileID: 114515152980434442}
   - component: {fileID: 114977029935342730}
@@ -77,6 +75,7 @@ GameObject:
   - component: {fileID: 114103077689687998}
   - component: {fileID: 114316174390999598}
   - component: {fileID: 114121294106810288}
+  - component: {fileID: 114267335537911808}
   m_Layer: 0
   m_Name: Start
   m_TagString: Untagged
@@ -323,26 +322,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 52
   indentLevel: 0
---- !u!114 &114179195761795648
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1007453916530586}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 33
-  indentLevel: 0
-  targetFlowchart: {fileID: 0}
-  targetBlock: {fileID: 0}
-  startLabel:
-    stringRef: {fileID: 0}
-    stringVal: 
-  startIndex: 0
-  callMode: 0
 --- !u!114 &114179752579410076
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -420,8 +399,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 125.66739
-    y: 106.5773
+    x: 126.66739
+    y: 109.5773
     width: 133
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -479,6 +458,22 @@ MonoBehaviour:
   waitForClick: 1
   stopVoiceover: 1
   setSayDialog: {fileID: 0}
+--- !u!114 &114267335537911808
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1007453916530586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 62
+  indentLevel: 0
+  soundClip: {fileID: 8300000, guid: 1873a7c1c9f9dae408ea518923c34365, type: 3}
+  volume: 1
+  waitUntilFinished: 0
 --- !u!114 &114307807801085000
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -506,31 +501,6 @@ MonoBehaviour:
   stringData:
     stringRef: {fileID: 0}
     stringVal: 
---- !u!114 &114312907165444362
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1007453916530586}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: 325.60178
-    y: 106.76688
-    width: 120
-    height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
-  itemId: 27
-  blockName: DoNothing
-  description: 
-  eventHandler: {fileID: 0}
-  commandList:
-  - {fileID: 114179195761795648}
 --- !u!114 &114316174390999598
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -809,7 +779,7 @@ MonoBehaviour:
   indentLevel: 0
   text: Do nothing
   description: 
-  targetBlock: {fileID: 114312907165444362}
+  targetBlock: {fileID: 0}
   hideIfVisited: 1
   interactable:
     booleanRef: {fileID: 0}
@@ -1118,8 +1088,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -76.651375
-    y: 111.19151
+    x: -104.651375
+    y: 14.191513
     width: 141
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1131,6 +1101,7 @@ MonoBehaviour:
   commandList:
   - {fileID: 114811759179387204}
   - {fileID: 114050225312124454}
+  - {fileID: 114267335537911808}
   - {fileID: 114928133314652302}
   - {fileID: 114059061166639150}
   - {fileID: 114529942546182000}
@@ -1329,7 +1300,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 114223122315546866}
+  - {fileID: 114865728284738520}
   selectedCommands: []
   variables:
   - {fileID: 114223001932892828}

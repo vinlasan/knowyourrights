@@ -37,6 +37,7 @@ GameObject:
   - component: {fileID: 114582106648631120}
   - component: {fileID: 114312764541949122}
   - component: {fileID: 114515794148040634}
+  - component: {fileID: 114419207600000690}
   m_Layer: 0
   m_Name: Film_B1
   m_TagString: Untagged
@@ -74,6 +75,7 @@ GameObject:
   - component: {fileID: 114144520563249884}
   - component: {fileID: 114388400913693156}
   - component: {fileID: 114479568216801620}
+  - component: {fileID: 114511576275387658}
   m_Layer: 0
   m_Name: Film_B2
   m_TagString: Untagged
@@ -103,6 +105,7 @@ GameObject:
   - component: {fileID: 114840185322656138}
   - component: {fileID: 114379154774430248}
   - component: {fileID: 114657179771265462}
+  - component: {fileID: 114523936259115494}
   m_Layer: 0
   m_Name: Film_B3
   m_TagString: Untagged
@@ -388,8 +391,7 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 114686729656861556}
-  selectedCommands:
-  - {fileID: 114657179771265462}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -580,6 +582,22 @@ MonoBehaviour:
   waitForClick: 1
   stopVoiceover: 1
   setSayDialog: {fileID: 0}
+--- !u!114 &114419207600000690
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1029095225126114}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 17
+  indentLevel: 0
+  soundClip: {fileID: 8300000, guid: 7c1068cf1845d484f954bbdac0d080df, type: 3}
+  volume: 1
+  waitUntilFinished: 0
 --- !u!114 &114442104560107580
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -746,6 +764,22 @@ MonoBehaviour:
     stringVal: 
   startIndex: 0
   callMode: 2
+--- !u!114 &114511576275387658
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1142465151271368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 27
+  indentLevel: 0
+  soundClip: {fileID: 8300000, guid: 7c1068cf1845d484f954bbdac0d080df, type: 3}
+  volume: 1
+  waitUntilFinished: 0
 --- !u!114 &114515794148040634
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -766,6 +800,22 @@ MonoBehaviour:
     booleanRef: {fileID: 0}
     booleanVal: 1
   targetGameObjectOLD: {fileID: 0}
+--- !u!114 &114523936259115494
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1404332302148456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 14
+  indentLevel: 0
+  soundClip: {fileID: 8300000, guid: 7c1068cf1845d484f954bbdac0d080df, type: 3}
+  volume: 1
+  waitUntilFinished: 0
 --- !u!114 &114530310501018786
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -791,6 +841,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 114600610332266510}
+  - {fileID: 114419207600000690}
   - {fileID: 114404007081448154}
   - {fileID: 114755846472026870}
   - {fileID: 114475224483537012}
@@ -990,6 +1041,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 114523936259115494}
   - {fileID: 114657179771265462}
   - {fileID: 114442104560107580}
   - {fileID: 114989508353568474}
@@ -1047,6 +1099,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 114511576275387658}
   - {fileID: 114756431503711746}
   - {fileID: 114257780523080048}
   - {fileID: 114216422975972086}
