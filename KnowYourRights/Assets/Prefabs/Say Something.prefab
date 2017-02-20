@@ -22,9 +22,7 @@ GameObject:
   - component: {fileID: 114836203473407000}
   - component: {fileID: 114317557603755074}
   - component: {fileID: 114265870098245816}
-  - component: {fileID: 114654236821632792}
   - component: {fileID: 114766061920172592}
-  - component: {fileID: 114292544528638008}
   - component: {fileID: 114426607266587474}
   - component: {fileID: 114645551232362454}
   - component: {fileID: 114847237933910036}
@@ -38,7 +36,6 @@ GameObject:
   - component: {fileID: 114626119394479154}
   - component: {fileID: 114264498378129304}
   - component: {fileID: 114766940991909996}
-  - component: {fileID: 114354703791400464}
   - component: {fileID: 114958412566849536}
   - component: {fileID: 114365655441426064}
   - component: {fileID: 114243895627750906}
@@ -48,6 +45,10 @@ GameObject:
   - component: {fileID: 114505134925917878}
   - component: {fileID: 114750043410074632}
   - component: {fileID: 114581845325707404}
+  - component: {fileID: 114832549183403200}
+  - component: {fileID: 114462801865777398}
+  - component: {fileID: 114150456234898310}
+  - component: {fileID: 114863768226068672}
   m_Layer: 0
   m_Name: Say Something
   m_TagString: Untagged
@@ -157,6 +158,26 @@ MonoBehaviour:
   waitForClick: 1
   stopVoiceover: 1
   setSayDialog: {fileID: 0}
+--- !u!114 &114150456234898310
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1929476897922678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 48
+  indentLevel: 0
+  _targetGameObject:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 0}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  targetGameObjectOLD: {fileID: 0}
 --- !u!114 &114243895627750906
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -223,27 +244,6 @@ MonoBehaviour:
   waitForClick: 1
   stopVoiceover: 1
   setSayDialog: {fileID: 0}
---- !u!114 &114292544528638008
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1929476897922678}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 6
-  indentLevel: 1
-  text: Criticize the police
-  description: 
-  targetBlock: {fileID: 114766061920172592}
-  hideIfVisited: 0
-  interactable:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  setMenuDialog: {fileID: 0}
 --- !u!114 &114317557603755074
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -276,10 +276,8 @@ MonoBehaviour:
   - {fileID: 114265870098245816}
   - {fileID: 114581845325707404}
   - {fileID: 114766940991909996}
-  - {fileID: 114354703791400464}
   - {fileID: 114775678319978248}
-  - {fileID: 114654236821632792}
-  - {fileID: 114292544528638008}
+  - {fileID: 114863768226068672}
 --- !u!114 &114340605831687498
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -326,31 +324,6 @@ MonoBehaviour:
     booleanRef: {fileID: 0}
     booleanVal: 1
   targetGameObjectOLD: {fileID: 0}
---- !u!114 &114354703791400464
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1929476897922678}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 36
-  indentLevel: 1
-  storyText: However, hate speech (definition) is not protected speech
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 1
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  setSayDialog: {fileID: 0}
 --- !u!114 &114365655441426064
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -437,7 +410,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -369.38922
+    x: -368.1234
     y: 343.15768
     width: 120
     height: 40
@@ -449,10 +422,32 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 114847237933910036}
+  - {fileID: 114150456234898310}
   - {fileID: 114112752988772510}
   - {fileID: 114064808967162812}
+  - {fileID: 114462801865777398}
   - {fileID: 114373762230011552}
   - {fileID: 114505134925917878}
+--- !u!114 &114462801865777398
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1929476897922678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 49
+  indentLevel: 0
+  _targetGameObject:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 0}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  targetGameObjectOLD: {fileID: 0}
 --- !u!114 &114505134925917878
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -537,7 +532,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -52.707947
+    x: -51.442123
     y: 348.1665
     width: 120
     height: 40
@@ -549,25 +544,8 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 114085106728498080}
+  - {fileID: 114832549183403200}
   - {fileID: 114750043410074632}
---- !u!114 &114654236821632792
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1929476897922678}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ab54728d981544842843ba6609b9a80a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 2
-  indentLevel: 1
-  _duration:
-    floatRef: {fileID: 0}
-    floatVal: 5
-  targetBlock: {fileID: 0}
-  durationOLD: 0
 --- !u!114 &114750043410074632
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -664,6 +642,31 @@ MonoBehaviour:
     booleanRef: {fileID: 0}
     booleanVal: 0
   targetGameObjectOLD: {fileID: 0}
+--- !u!114 &114832549183403200
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1929476897922678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 47
+  indentLevel: 0
+  storyText: You're sign conveys your message and you continue the protest.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  setSayDialog: {fileID: 0}
 --- !u!114 &114836203473407000
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -688,7 +691,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 114317557603755074}
+  - {fileID: 114645551232362454}
   selectedCommands: []
   variables: []
   description: 
@@ -727,6 +730,26 @@ MonoBehaviour:
   waitForClick: 1
   stopVoiceover: 1
   setSayDialog: {fileID: 0}
+--- !u!114 &114863768226068672
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1929476897922678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 50
+  indentLevel: 1
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 114766061920172592}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
 --- !u!114 &114916436686895856
 MonoBehaviour:
   m_ObjectHideFlags: 1

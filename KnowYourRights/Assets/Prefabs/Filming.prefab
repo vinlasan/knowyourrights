@@ -38,6 +38,7 @@ GameObject:
   - component: {fileID: 114312764541949122}
   - component: {fileID: 114515794148040634}
   - component: {fileID: 114419207600000690}
+  - component: {fileID: 114078859361571524}
   m_Layer: 0
   m_Name: Film_B1
   m_TagString: Untagged
@@ -76,6 +77,16 @@ GameObject:
   - component: {fileID: 114388400913693156}
   - component: {fileID: 114479568216801620}
   - component: {fileID: 114511576275387658}
+  - component: {fileID: 114114616035224118}
+  - component: {fileID: 114847814619410216}
+  - component: {fileID: 114790424428223348}
+  - component: {fileID: 114093051432981222}
+  - component: {fileID: 114760013652350628}
+  - component: {fileID: 114379006218079124}
+  - component: {fileID: 114668423099874908}
+  - component: {fileID: 114735068334092838}
+  - component: {fileID: 114615797547488032}
+  - component: {fileID: 114983253264581778}
   m_Layer: 0
   m_Name: Film_B2
   m_TagString: Untagged
@@ -106,6 +117,11 @@ GameObject:
   - component: {fileID: 114379154774430248}
   - component: {fileID: 114657179771265462}
   - component: {fileID: 114523936259115494}
+  - component: {fileID: 114982716377911848}
+  - component: {fileID: 114043576256773370}
+  - component: {fileID: 114736826572409538}
+  - component: {fileID: 114615523212398862}
+  - component: {fileID: 114695146725963718}
   m_Layer: 0
   m_Name: Film_B3
   m_TagString: Untagged
@@ -207,7 +223,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 114530310501018786}
+  - {fileID: 114709550447121782}
   selectedCommands: []
   variables: []
   description: 
@@ -220,6 +236,26 @@ MonoBehaviour:
   hideCommands: []
   luaEnvironment: {fileID: 0}
   luaBindingName: flowchart
+--- !u!114 &114043576256773370
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1404332302148456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 53
+  indentLevel: 0
+  _targetGameObject:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 0}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  targetGameObjectOLD: {fileID: 0}
 --- !u!114 &114044048935426426
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -258,8 +294,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 5
   indentLevel: 0
-  storyText: "Your video may provide important details in our investigation. You may
-    go for now.\u201D \n\n"
+  storyText: "\"Your video may provide important details in our investigation. You
+    may go for now.\u201D \n\n"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -341,6 +377,46 @@ MonoBehaviour:
   waitForClick: 1
   stopVoiceover: 1
   setSayDialog: {fileID: 0}
+--- !u!114 &114078859361571524
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1029095225126114}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 18
+  indentLevel: 0
+  _targetGameObject:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 0}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  targetGameObjectOLD: {fileID: 0}
+--- !u!114 &114093051432981222
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1142465151271368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 33
+  indentLevel: 1
+  _targetGameObject:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 0}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  targetGameObjectOLD: {fileID: 0}
 --- !u!114 &114108037458971962
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -366,6 +442,26 @@ MonoBehaviour:
   waitForClick: 1
   stopVoiceover: 1
   setSayDialog: {fileID: 0}
+--- !u!114 &114114616035224118
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1142465151271368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 28
+  indentLevel: 0
+  _targetGameObject:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 0}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  targetGameObjectOLD: {fileID: 0}
 --- !u!114 &114121436356520846
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -389,8 +485,7 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 114686729656861556}
+  selectedBlocks: []
   selectedCommands: []
   variables: []
   description: 
@@ -506,6 +601,27 @@ MonoBehaviour:
     stringVal: 
   startIndex: 0
   callMode: 0
+--- !u!114 &114379006218079124
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1142465151271368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0729d4f369e6a4241a6e7e3b8b9c1933, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 29
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 0}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Stop
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114379154774430248
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -637,7 +753,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 124
+    x: 134.52634
     y: 216
     width: 120
     height: 40
@@ -829,7 +945,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 206.53165
+    x: 209.0633
     y: -20.04631
     width: 124
     height: 40
@@ -925,10 +1041,44 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 114752620874974626}
+  - {fileID: 114078859361571524}
   - {fileID: 114055276160344820}
   - {fileID: 114991380710150348}
+  - {fileID: 114752620874974626}
   - {fileID: 114312764541949122}
+--- !u!114 &114615523212398862
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1404332302148456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 49
+  indentLevel: 0
+  _targetGameObject:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 0}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  targetGameObjectOLD: {fileID: 0}
+--- !u!114 &114615797547488032
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1142465151271368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b359b09a7ba2e4af981f07c07f8af85a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 38
+  indentLevel: 1
 --- !u!114 &114629818395850104
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -983,6 +1133,26 @@ MonoBehaviour:
     stringVal: ForcefullyTakePhone
   animatorOLD: {fileID: 0}
   parameterNameOLD: 
+--- !u!114 &114668423099874908
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1142465151271368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 30
+  indentLevel: 0
+  _targetGameObject:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 0}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  targetGameObjectOLD: {fileID: 0}
 --- !u!114 &114683441175351252
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -996,8 +1166,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 510
-    y: 219
+    x: 506.8645
+    y: 216.36841
     width: 145
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1009,13 +1179,20 @@ MonoBehaviour:
   commandList:
   - {fileID: 114954618990231558}
   - {fileID: 114824575235017418}
+  - {fileID: 114760013652350628}
   - {fileID: 114925474364085760}
   - {fileID: 114728236131724766}
   - {fileID: 114070607513020444}
+  - {fileID: 114847814619410216}
   - {fileID: 114479568216801620}
   - {fileID: 114631350703255326}
+  - {fileID: 114615797547488032}
+  - {fileID: 114093051432981222}
   - {fileID: 114044048935426426}
+  - {fileID: 114735068334092838}
   - {fileID: 114461598658049244}
+  - {fileID: 114983253264581778}
+  - {fileID: 114790424428223348}
   - {fileID: 114144520563249884}
 --- !u!114 &114686729656861556
 MonoBehaviour:
@@ -1030,7 +1207,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 322
+    x: 323.49252
     y: 126
     width: 120
     height: 40
@@ -1042,10 +1219,32 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 114523936259115494}
+  - {fileID: 114695146725963718}
   - {fileID: 114657179771265462}
   - {fileID: 114442104560107580}
+  - {fileID: 114615523212398862}
   - {fileID: 114989508353568474}
   - {fileID: 114929256294933476}
+--- !u!114 &114695146725963718
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1404332302148456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 50
+  indentLevel: 0
+  _targetGameObject:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 0}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  targetGameObjectOLD: {fileID: 0}
 --- !u!114 &114709550447121782
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1060,7 +1259,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 48.016983
-    y: 71.56128
+    y: 72.8271
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1088,8 +1287,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 320
-    y: 90
+    x: 344.7481
+    y: 105.78946
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1100,7 +1299,10 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 114511576275387658}
+  - {fileID: 114668423099874908}
+  - {fileID: 114379006218079124}
   - {fileID: 114756431503711746}
+  - {fileID: 114114616035224118}
   - {fileID: 114257780523080048}
   - {fileID: 114216422975972086}
 --- !u!114 &114718907924905582
@@ -1142,8 +1344,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 16
   indentLevel: 1
-  storyText: 'Note: The police officer cannot force you to stop filming unless you
-    are endangering someone.'
+  storyText: 'Note: {i}The police officer cannot force you to stop filming unless
+    you are endangering someone.{/i}'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1155,6 +1357,46 @@ MonoBehaviour:
   waitForClick: 1
   stopVoiceover: 1
   setSayDialog: {fileID: 0}
+--- !u!114 &114735068334092838
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1142465151271368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 437f9a4e3dbc647f9bdce95308418bff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 37
+  indentLevel: 1
+  duration: 1
+  fadeOut: 1
+  targetView: {fileID: 0}
+  waitUntilFinished: 1
+  fadeColor: {r: 0, g: 0, b: 0, a: 1}
+  fadeTexture: {fileID: 0}
+  targetCamera: {fileID: 0}
+--- !u!114 &114736826572409538
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1404332302148456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 437f9a4e3dbc647f9bdce95308418bff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 52
+  indentLevel: 0
+  duration: 1
+  fadeOut: 1
+  targetView: {fileID: 0}
+  waitUntilFinished: 1
+  fadeColor: {r: 0, g: 0, b: 0, a: 1}
+  fadeTexture: {fileID: 0}
+  targetCamera: {fileID: 0}
 --- !u!114 &114752620874974626
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1173,7 +1415,7 @@ MonoBehaviour:
     gameObjectVal: {fileID: 0}
   activeState:
     booleanRef: {fileID: 0}
-    booleanVal: 1
+    booleanVal: 0
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &114755846472026870
 MonoBehaviour:
@@ -1220,6 +1462,26 @@ MonoBehaviour:
   waitForClick: 1
   stopVoiceover: 1
   setSayDialog: {fileID: 0}
+--- !u!114 &114760013652350628
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1142465151271368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 32
+  indentLevel: 1
+  _targetGameObject:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 0}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  targetGameObjectOLD: {fileID: 0}
 --- !u!114 &114788407361776812
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1233,8 +1495,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 9
   indentLevel: 0
-  storyText: "Note: You are not required by law to comply with the police officer\u2019s
-    request to show the video. (Citation)"
+  storyText: "Note: {i}You are not required by law to comply with the police officer\u2019s
+    request to show the video.{/i}"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1246,6 +1508,26 @@ MonoBehaviour:
   waitForClick: 1
   stopVoiceover: 1
   setSayDialog: {fileID: 0}
+--- !u!114 &114790424428223348
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1142465151271368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 34
+  indentLevel: 1
+  _targetGameObject:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 0}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  targetGameObjectOLD: {fileID: 0}
 --- !u!114 &114812209976719992
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1306,7 +1588,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 11
   indentLevel: 0
-  storyText: Your rights have been violated.  (citation) Stay silent and lawyer up!
+  storyText: Your rights have been violated.  Stay silent and lawyer up!
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1343,8 +1625,29 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 114853680582421842}
+  - {fileID: 114736826572409538}
   - {fileID: 114840185322656138}
   - {fileID: 114056671105914582}
+--- !u!114 &114847814619410216
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1142465151271368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 31
+  indentLevel: 1
+  _targetGameObject:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 0}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  targetGameObjectOLD: {fileID: 0}
 --- !u!114 &114853680582421842
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1394,8 +1697,10 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 114043576256773370}
   - {fileID: 114108037458971962}
   - {fileID: 114379154774430248}
+  - {fileID: 114982716377911848}
   - {fileID: 114629818395850104}
 --- !u!114 &114925474364085760
 MonoBehaviour:
@@ -1463,6 +1768,42 @@ MonoBehaviour:
   maxValue:
     integerRef: {fileID: 0}
     integerVal: 100
+--- !u!114 &114982716377911848
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1404332302148456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 54
+  indentLevel: 0
+  _targetGameObject:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 0}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  targetGameObjectOLD: {fileID: 0}
+--- !u!114 &114983253264581778
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1142465151271368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 39
+  indentLevel: 1
+  soundClip: {fileID: 8300000, guid: b5bee134e14aae844ad609500d3e6032, type: 3}
+  volume: 0.75
+  waitUntilFinished: 1
 --- !u!114 &114988869074985492
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1487,8 +1828,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 114711360719388854}
-  selectedCommands: []
+  - {fileID: 114683441175351252}
+  selectedCommands:
+  - {fileID: 114983253264581778}
   variables:
   - {fileID: 114576726545572302}
   description: 
@@ -1535,8 +1877,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 8
   indentLevel: 0
-  storyText: 'Note: A police officer may not force you to show the video but they
-    may return with a court order which would allow them to see it.'
+  storyText: 'Note: {i}A police officer may not force you to show the video but they
+    may return with a court order which would allow them to see it.{/i}'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
